@@ -32,8 +32,8 @@ h1 {
     background-image: url(../images/pattern-hills.svg);
     height: 12rem;
     margin-top: 16rem;
+    margin-right: none;
     background-repeat: no-repeat;
-    background-size: auto;
 }
 
 img {
@@ -43,8 +43,75 @@ img {
     
 }
 
+.numeros div {
+    background-color: #31354e;
+    width: 6rem;
+    height: 6rem;
+    align-items: center;
+    border-radius: 0.5rem;
+
+}
+
+.numeros-p{
+    margin:2rem 0 0 0.5rem ;
+    margin-bottom: 4rem;
+    color: #d14f70;
+    font-size: 28px;
+    
+    font-weight: bolder;
+
+}
+
+.data-titulo {
+    color: #77758c;
+    text-align: center;
+    font-size: 14px;
+}
 footer{
     display: flex;
-    margin-left: 2rem;
-    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer a {
+    color: #d14f70 ;
+    
+}
+
+@media (min-width: 1281px) {
+    h1 {
+        margin-bottom: 4rem;
+    }
+
+    .numeros {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .numeros div {
+       margin: 1rem;
+       width: 10rem;
+       height: 8rem;
+    }
+
+    .numeros-p {
+        align-items: center;
+        font-size: 50px;
+        
+    }
+
+    .social {
+        background-size: 100%;
+    }
+
+    footer {
+        display: flex;
+        align-items:flex-end;
+        margin-top: 11rem;
+        padding-left: 33rem;
+    }
 }
