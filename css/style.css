@@ -2,6 +2,7 @@ body{
     background-image:linear-gradient(#1e1e28, #241e2c);
     background-repeat: no-repeat;
     font-family: 'Red Hat Text', sans-serif;
+    
 }
 
 .container{
@@ -30,10 +31,19 @@ h1 {
     flex-direction: row;
     justify-content: center;
     background-image: url(../images/pattern-hills.svg);
-    height: 12rem;
-    margin-top: 16rem;
-    margin-right: none;
-    background-repeat: no-repeat;
+    height: 14rem;
+    margin-top: 12rem;
+    background-size: cover;
+}
+
+.social img{
+    padding-top: 6rem;
+}
+
+
+.creditos {
+    position: relative;
+    width: 10rem;
 }
 
 img {
@@ -45,18 +55,19 @@ img {
 
 .numeros div {
     background-color: #31354e;
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     align-items: center;
     border-radius: 0.5rem;
 
 }
 
 .numeros-p{
-    margin:2rem 0 0 0.5rem ;
+    margin:1.5rem 0.1rem 0 1.2rem ;
     margin-bottom: 4rem;
+    align-items: center;
     color: #d14f70;
-    font-size: 28px;
+    font-size: 30px;
     
     font-weight: bolder;
 
@@ -67,7 +78,7 @@ img {
     text-align: center;
     font-size: 14px;
 }
-footer{
+.rodape{
     display: flex;
     margin-left: 4rem;
     margin-top: 5rem;
@@ -75,12 +86,8 @@ footer{
     text-align: center;
 }
 
-footer a {
-    color: #d14f70 ;
-    
-}
 
-@media (min-width: 1281px) {
+@media (min-width: 899px) {
     h1 {
         margin-bottom: 4rem;
     }
@@ -93,19 +100,23 @@ footer a {
     }
 
     .numeros div {
-       margin: 1rem;
-       width: 10rem;
+       margin: 1.5rem;
+       width: 9rem;
        height: 8rem;
     }
 
     .numeros-p {
-        align-items: center;
-        font-size: 50px;
+        padding: auto;
+        font-size: 75px;
         
+    }
+    .data-titulo {
+        font-size: 20px;
     }
 
     .social {
-        background-size: 100%;
+        height: 14rem;
+        background-size: cover;
     }
 
     footer {
