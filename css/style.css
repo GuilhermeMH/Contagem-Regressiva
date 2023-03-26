@@ -11,7 +11,7 @@ body{
 }
 
 h1 {
-    padding-top: 8rem;
+    padding-top: 5rem;
     display: flex;
     justify-content: center;
     font-size: 36px;
@@ -31,7 +31,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     background-image: url(../images/pattern-hills.svg);
-    height: 14rem;
+    height: 16rem;
     margin-top: 12rem;
     background-size: cover;
 }
@@ -64,7 +64,7 @@ img {
 
 .numeros-p{
     margin:1.5rem 0.1rem 0 1.2rem ;
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
     align-items: center;
     color: #d14f70;
     font-size: 30px;
@@ -88,6 +88,9 @@ img {
 
 
 @media (min-width: 899px) {
+    .container{
+        height: 40rem;
+    }
     h1 {
         margin-bottom: 4rem;
     }
@@ -115,7 +118,7 @@ img {
     }
 
     .social {
-        height: 14rem;
+        height: 10.35rem;
         background-size: cover;
     }
 
