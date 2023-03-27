@@ -13,6 +13,7 @@ body{
 h1 {
     padding-top: 5rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-size: 36px;
     color: #ffffff;
@@ -21,29 +22,10 @@ h1 {
 .numeros{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
     margin-top: 2rem;
     
-}
-
-.social {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-image: url(../images/pattern-hills.svg);
-    height: 16rem;
-    margin-top: 12rem;
-    background-size: cover;
-}
-
-.social img{
-    padding-top: 6rem;
-}
-
-
-.creditos {
-    position: relative;
-    width: 10rem;
 }
 
 img {
@@ -52,6 +34,7 @@ img {
     padding: 5rem 1rem 0 1rem;
     
 }
+
 
 .numeros div {
     background-color: #31354e;
@@ -63,12 +46,13 @@ img {
 }
 
 .numeros-p{
-    margin:1.5rem 0.1rem 0 1.2rem ;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
     align-items: center;
     color: #d14f70;
     font-size: 30px;
-    
     font-weight: bolder;
 
 }
@@ -78,12 +62,18 @@ img {
     text-align: center;
     font-size: 14px;
 }
-.rodape{
+.social {
     display: flex;
-    margin-left: 4rem;
-    margin-top: 5rem;
-    font-size: 12px;
-    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(../images/pattern-hills.svg);
+    height: 20rem;
+    margin-top: 13rem;
+    background-size: cover;
+}
+
+.social img{
+    padding-top: 12rem;
 }
 
 
@@ -103,22 +93,23 @@ img {
     }
 
     .numeros div {
+        
        margin: 1.5rem;
+       align-items: center;
        width: 9rem;
        height: 8rem;
     }
 
     .numeros-p {
-        padding: auto;
-        font-size: 75px;
-        
+        font-size: 70px;    
     }
     .data-titulo {
         font-size: 20px;
+        margin-top: 3rem;
     }
 
     .social {
-        height: 10.35rem;
+        height: 15.35rem;
         background-size: cover;
     }
 
