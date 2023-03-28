@@ -5,13 +5,16 @@
 Neste projeto realizei um contador de dias, horas, minutos e segundos para o início de 2024
 
 
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
+## Começando
 
-## Ferramentas ultilizadas
+Realizei esse projeto com o intuíto de praticar mais as funções de innerHTML e como deixar o projeto atualizando conforme passa os horários.
 
-- HTML
-- CSS
-- JavaScript
+### Processo de criação
+
+* Página html
+* Estlilização com CSS
+* criar o main.js e ultilizar elementos JavaScript para interação com o Html.
+
 
 
 
