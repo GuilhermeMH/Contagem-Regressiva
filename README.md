@@ -1,12 +1,9 @@
-# Frontend Mentor - Launch countdown timer
+# Contagem regressiva 2024
 
-![Design preview for the Launch countdown timer coding challenge](./design/desktop-preview.jpg)
+## Olá a todos! 👋
 
-## Welcome! 👋
+Neste projeto realizei um contador de dias, horas, minutos e segundos para o início de 2024
 
-Thanks for checking out this front-end coding challenge.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
 **To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
 
