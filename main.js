@@ -1,12 +1,4 @@
-//var n1 = Number(window.prompt('Digite um número: '))
-//var n2 = Number(window.prompt('Digite oureo número número: '))
-//var s = n1 + n2
-//window.alert ('A soma é igual a ' + s)
 
-//document.ready = function(){//
-
-
-//};
 const contagem = () => {
     const dataFinal = new Date('Dec 01, 2023 23:59:00').getTime()
     const dataAtual = new Date().getTime()
@@ -38,26 +30,3 @@ const contagem = () => {
 
 setInterval(contagem, 1000)
 
-//const dias = document.getElementById('dias')
-//const horas = document.getElementById('horas')
-//
-//const minutos = document.getElementById('minutos')
-//const segundos = document.getElementById('segundos')
-//
-//$(function(){
-//
-//	setInterval(function(){
-//  	
-
-//    
-//    
-//    
-//    var diferenca = fim - atual;
-//    
-
-//    
-//   
-//  	
-//  },1000);
-//
-//});
