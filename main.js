@@ -1,6 +1,6 @@
 
 const contagem = () => {
-    const dataFinal = new Date('Dec 01, 2023 23:59:00').getTime()
+    const dataFinal = new Date('Dec 31, 2023 23:59:00').getTime()
     const dataAtual = new Date().getTime()
     
     const diferenca = dataFinal - dataAtual
