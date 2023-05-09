@@ -1,4 +1,4 @@
-# Contagem regressiva 2024
+# Contagem regressiva
 
 ## Neste projeto realizei um contador de dias, horas, minutos e segundos para o início de 2024
 
