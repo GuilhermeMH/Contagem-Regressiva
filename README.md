@@ -3,11 +3,11 @@
 ## Neste projeto realizei um contador de dias, horas, minutos e segundos para o início de 2024
 
 
-### Começando
+## Começando
 
 Realizei esse projeto com o intuíto de praticar mais as funções de innerHTML e como deixar o projeto atualizando conforme passa os horários.
 
-### Processo de criação
+## Processo de criação
 
 * Página html
 * Estlilização com CSS
